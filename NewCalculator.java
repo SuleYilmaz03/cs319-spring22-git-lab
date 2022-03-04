@@ -1,6 +1,12 @@
 public class NewCalculator {
     private double lastResult;
 
+    public double Multiply(double x, double y){
+    this.lastResult = x * y;
+    return this.lastResult;
+    }
+
+
     public NewCalculator(){
         this.lastResult = 0;
     }
